@@ -20,17 +20,9 @@ const userSchemas=new mongoose.Schema({
         type:String,
         requried:true
     },
-    avatar:{
+    phoneNumber:{
         type:String,
-    },
-    interest:{
-        type:String,
-        enum:["Tech","Education","Health","Food","Fashion"],
         required:true
-    },
-    coins:{
-        type:Number,
-        default:0
     }
 },{timestamps:true})
 

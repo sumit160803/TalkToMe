@@ -1,5 +1,5 @@
 PORT=8000
-MONGODB_URI="mongodb+srv://mridultiwari2002:mridultiwari2002@cluster0.4easuzw.mongodb.net/LevelCoin"
+MONGODB_URI=""
 CORS_ORIGIN=*
 
 ACCESS_TOKEN_SECRET=wDG4hJTj5itP5GKekMi9fxZOKVwEt4hYPYHUKykcOi3DvAioCO5sdOVfadOj4OPOtspysSDDE9O7BVYfzWrsM6

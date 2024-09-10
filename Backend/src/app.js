@@ -17,15 +17,10 @@ app.use(cookieParser())
 
 
 //routes import
-import userRouter from "./routes/user.routes.js"
-import reward from "./routes/reward.routes.js"
-import task from "./routes/task.routes.js"
-// import postRouter from "./routes/post.routes.js"
-// import homeRouter from "./routes/home.routes.js"
+import Router from "./routes/routes.js"
+
 
 // routes declaration
-app.use("/api/v1/users",userRouter) //http://localhost:8000/api/v1/users/register or users/login
-app.use("/api/v1/reward",reward) //http://localhost:8000/api/v1/reward/reward-history
-app.use("/api/v1/task",task) //http://localhost:8000/api/v1/reward/reward-history
+app.use("/api/v1/",Router) 
 
 export {app}
